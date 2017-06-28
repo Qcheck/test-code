@@ -23,7 +23,7 @@ class simpleapp_tk(Tkinter.Tk):
 
         self.labelVariable = Tkinter.StringVar()
         label = Tkinter.Label(self,textvariable=self.labelVariable,
-                              anchor="w",fg="white",bg="white")
+                              anchor="w",fg="white",bg="Brown")
         label.grid(column=0,row=1,columnspan=2,sticky='EW')
         self.labelVariable.set(u"Hello !")
 
